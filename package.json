@@ -9,11 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "element-plus": "^2.2.15",
+    "monaco-editor": "^0.34.0",
+    "pinia": "^2.0.21",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
+    "@unocss/transformer-directives": "^0.45.13",
     "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.8",
+    "less": "^4.1.3",
+    "postcss": "^8.4.16",
     "typescript": "^4.6.4",
+    "unocss": "^0.45.13",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
     "vite": "^3.0.7",
     "vue-tsc": "^0.39.5"
   }
