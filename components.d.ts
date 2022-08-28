@@ -8,6 +8,12 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElCol: typeof import('element-plus/es')['ElCol']
+    ElInput: typeof import('element-plus/es')['ElInput']
+    ElRow: typeof import('element-plus/es')['ElRow']
+    IFluentContactCard16Filled: typeof import('~icons/fluent/contact-card16-filled')['default']
+    IFluentEye12Filled: typeof import('~icons/fluent/eye12-filled')['default']
+    IFluentFolderMail16Filled: typeof import('~icons/fluent/folder-mail16-filled')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
