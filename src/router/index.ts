@@ -6,6 +6,11 @@ const routes = [
         name: 'Login',
         component: () => import('../pages/login.vue')
     },
+    {
+        path: '/submit',
+        name: 'Editor',
+        component: () => import('../pages/editor.vue')
+    },
 ]
 
 const router = createRouter({
